@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="home.css">
+        
+    </head>
+    <body>
+        
+        <h1>WINES OF CRETE</h1>
+        
+      
+ <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="buy.php">Wines</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">User Settings</a>
+                <div class="dropdown-content">
+                    <form action="transactions.html" method="post">
+                        <input type="submit" name="Transactions" value="Transanctions"> 
+                    </form>
+                    <form action="unregister.php" method="post">
+                        <input type="submit" name="Unregister" value="Unregister"> 
+                    </form>
+                    <form action="logout.php" method="post">
+                        <input type="submit" name="Logout" value="Logout"> 
+                    </form>
+
+
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Statistics</a>
+                <div class="dropdown-content">
+                    <form action="productOftheMonth.php" method="post">
+                        <input type="submit" name="Productofthemonth" value="Product of the month"> 
+                    </form>
+                    <form action="good.php" method="post">
+                        <input type="submit" name="GoodCustomers" value="Good Customers"> 
+                    </form>
+                    <form action="bad.php" method="post">
+                        <input type="submit" name="BadCustomers" value="Bad Customers"> 
+                    </form>
+
+                </div>
+            </li>
+            <li><a href="search.php">Search</a></li>
+             <li><a href="unpaidOrders.php">Unpaid Orders</a></li>
+             <li><a href="return.php">Return Product</a></li>
+             <li><a href="popular_products.php">Popular Products</a></li>
+        </ul>
+        
+        <div id="wines_div" style="display: none">
+           
+        </div>
+       
+          
+        
+<script>
+    
+function myfunction(){
+    //document.getElementById('wines_div').style.display = "block";
+    location.href ="http://localhost/hy360_Proect/buy.php";
+}    
+    
+</script>
+        
+    </body>
+</html>                                 

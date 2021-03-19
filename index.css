@@ -1,0 +1,65 @@
+body{
+    
+    background-image: url("back.jpg");
+    background-position:center;
+   
+}
+
+.my_selector{
+    color: white;
+}
+
+div.a2{
+    text-align: center;
+}
+
+
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+        color: #E8F1F2;
+}
+
+label {
+    
+    color: #E8F1F2;
+}
+form { 
+    text-align:center;
+    color: black;
+    
+
+}
+
+input {
+        
+	padding: 10px;
+        margin: auto;
+	font-size: solid #EEE1B3;
+}
+
+
+input[type="text"], input[type="password"] {
+	display: block;
+	margin-bottom: 25px;
+	background: rgba(255,255,255,.6);
+	width: 30%;
+	border: 2px solid white;
+        
+}
+
+input[type="submit"] {
+	width: 32%;
+	height: 45px;
+	border: none;
+	background: #EA2B1F;
+	color: white;
+	font-size: 15px;
+}
+
+input[type="radio"] {
+    
+    margin-bottom: 25px;
+    
+}
